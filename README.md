@@ -18,6 +18,7 @@ Another is redirecting SSL enabled traffic from one domain to other locations.
 
 S3 Bucket permissions
 ---------------------
+Let buckets grant read access to your files.
 
 {
     "Version": "2012-10-17",
@@ -36,7 +37,7 @@ S3 Bucket permissions
 
 S3 Bucket redirecting
 ---------------------
-Usecase: redirect all incoming requests for any path to a single page
+Redirect incoming requests for any path to a single page
 
 <RoutingRules>
   <RoutingRule>
