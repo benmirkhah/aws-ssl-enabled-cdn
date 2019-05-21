@@ -2,7 +2,10 @@
 SSL Enabled domain hosting / redirecting on AWS CDN
 ---------------------------------------------------
 
-1. Register the new domain name (ie. somedomain.com) preferably with AWS Route53 service.
+One usecase is SSL enabled static site hosting for any new domains.
+Another is redirecting SSL enabled traffic from one domain to other locations.
+
+1. Register the new domain name (ie. somedomain.com) with AWS Route53.
 2. Create a new bucket for hosting static site www.somedomain.com on AWS S3.
 3. Create a new index.html file and place it in the newly created bucket, make file public.
 4. Register a new SSL cert for the new domain name with AWS Certificate Manager.
