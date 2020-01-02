@@ -12,7 +12,7 @@ Another is redirecting SSL enabled traffic from one domain to other locations.
 5. Create a new CDN distribution for the new domain on AWS Cloudfront using the newly issued SSL certificate.
 6. Create a DNS A record for www.somedomain.com to alias newly created Cloudfront CDN address.
 7. Create a DNS Pointer record for root level somedomain.com to point to www.somedomain.com
-8. Wait for CDN propagation, check if non-secure http;//somedomain.com redirects to SSL enabled https://www.somedomain.com
+8. Wait for CDN propagation, check if non-secure http://somedomain.com redirects to SSL enabled https://www.somedomain.com
 9. If SSL enabled domain redirection is the goal provide redirect map on the S3’s www.somedomain.com folder, see below.
 
 
